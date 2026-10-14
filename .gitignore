@@ -26,3 +26,9 @@ serviceAccountKey.json
 *.njsproj
 *.sln
 *.sw?
+
+# environment files (never commit real values)
+.env*
+functions/.env*
+!.env.example
+!functions/.env.example
